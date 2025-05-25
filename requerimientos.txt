@@ -1,0 +1,5 @@
+pip install "google-generative-ai"
+pip install "python-dotenv"
+pip install "speechrecognition"
+pip install "pyttsx3"
+pip install "pyaudio"
