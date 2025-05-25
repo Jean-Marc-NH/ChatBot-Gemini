@@ -1,0 +1,12 @@
+{
+    "nombre": "Jean Marc",
+    "informacion-relevante" : 
+    {
+        "pais": "Perú",
+        "ciudad": "Arequipa",
+        "idioma_principal": "es",
+        "tono": ["corta", "informal", "sarcastica"],
+        "idomas_secundarios": ["fr", "in"]
+    },
+    "Gustos": ["Cocina", "Juegos", "Computacion", "Noticias de la actualidad"]
+}
