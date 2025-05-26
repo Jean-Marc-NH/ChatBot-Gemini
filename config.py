@@ -15,6 +15,11 @@ MEMORY_DIR = BASE_DIR / "memoria"
 MEMORY_DIR.mkdir(exist_ok=True)
 MEMORY_FILE = MEMORY_DIR / "ligera.json"
 
+SPOTIPY_CLIENT_ID = os.getenv("SPOTIPY_CLIENT_ID", "")
+SPOTIPY_CLIENT_SECRET = os.getenv("SPOTIPY_CLIENT_SECRET", "")
+SPOTIPY_REDIRECT_URI = os.getenv("SPOTIPY_REDIRECT_URI", "")
+
+
 STT_CONFIG = {
     "language": "es-ES", 
     "energy_threshold": 300,
